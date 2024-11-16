@@ -1,0 +1,9 @@
+N=int(input())
+sum=0
+while N>0:
+    sum+=N%10
+    N//=10
+if sum%2==0:
+    print("Vignesh")
+else:
+    print("Charan")
